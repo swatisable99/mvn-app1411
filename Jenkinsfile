@@ -1,6 +1,6 @@
 pipeline{
     agent{
-        label('maven-build-servre')
+        label('maven-build-server')
     }
     tools{
         maven 'maven-3.9.8'
