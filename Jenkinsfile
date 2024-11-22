@@ -7,7 +7,7 @@ pipeline{
     }
     stages{
         stage('Code Build Stage'){
-            stage{
+            steps{
                sh 'mvn install -Dmaven.test.skip=true'
             }
         }
