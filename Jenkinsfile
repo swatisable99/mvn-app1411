@@ -1,8 +1,8 @@
 pipeline{
     agent{
         node {
-        label('maven-build-server')
-     }
+            label('maven-build-server')
+        }
     }
     tools{
         maven 'maven-3.9.8'
