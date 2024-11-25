@@ -1,7 +1,7 @@
 pipeline{
     agent{
         node{
-            label 'maven-build-server'
+            label 'maven_build_server'
         }
     }
     tools{
